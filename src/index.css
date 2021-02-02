@@ -419,7 +419,7 @@
   }
   .home .left,
   .home .right {
-    margin: auto;
+    margin: 20px;
   }
 
   .home-btn {
@@ -455,7 +455,7 @@
   }
   .skills .left,
   .skills .right {
-    margin: 20px 0;
+    margin: 30px 0;
   }
   .skills .left h1 {
     margin-bottom: 20px;
