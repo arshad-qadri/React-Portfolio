@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Footer from '../component/Footer';
 import img from '../img/arshad.jpg';
 
 const About = () => {
+  useEffect(() => {
+    document.title = 'About || React-Single-Page-Application';
+  });
   return (
     <>
       <div className='about '>

@@ -5,9 +5,9 @@ import myImg from '../img/arshad2.png';
 import resume from '../resume/myresume.pdf';
 
 const Home = () => {
-  // useEffect(() => {
-  //   alert('test');
-  // }, []);
+ useEffect(()=>{
+   document.title="Home || React-Single-Page-Application";
+ });
   return (
     // <div className='text-center'>
     //   <h1 className='display-3'>CodeWith Arshad </h1>

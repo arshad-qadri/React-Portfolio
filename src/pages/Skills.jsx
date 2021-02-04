@@ -1,9 +1,11 @@
-import React from 'react';
-// import { ImHtmlFive } from 'react-icons/fa';
+import React, { useEffect } from 'react';
 import C_Img from '../img/app_development_PNG.png';
 import Footer from '../component/Footer';
 
 const Skills = () => {
+  useEffect(() => {
+    document.title = 'Skills || React-Single-Page-Application';
+  });
   const skill = [
     {
       id: 1,

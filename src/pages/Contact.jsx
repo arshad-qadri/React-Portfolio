@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import emailjs from 'emailjs-com';
 import Footer from '../component/Footer';
 
 export default function Contact() {
+  useEffect(() => {
+    document.title = 'Contact || React-Single-Page-Application';
+  });
   function sendEmail(e) {
     e.preventDefault();
+    alert('Message Sent Successfully.');
 
     emailjs
       .sendForm(
